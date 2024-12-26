@@ -63,7 +63,7 @@ function handleDeleteBtn(studentElement, studentIndex) {
 }
 
 function renderStudents(students) {
-    elStudentList.innerHTML = ""; // Clear existing list
+    elStudentList.innerHTML = ""; 
 
     students.forEach((student, index) => {
         const newStudentItem = document.createElement("li");
